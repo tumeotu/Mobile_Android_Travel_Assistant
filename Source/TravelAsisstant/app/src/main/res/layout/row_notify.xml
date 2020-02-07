@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:background="@drawable/draw_fill"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-Aauto"
+            android:id="@+id/profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/avatar"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ContentNotify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="tu meo moi ban than gia tour náydashdjkahsjkdhaskjdhkasd"
+                android:textSize="20sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/TimeNotify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="tu meo moi ban thanjkdhaskjdhkasd"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_Accept"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/boderbutton"
+            android:text="@string/accept"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            >
+        </Button>
+        <Button
+            android:id="@+id/btn_Deny"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/boderlayout"
+            android:layout_margin="20dp"
+            android:text="@string/deny"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

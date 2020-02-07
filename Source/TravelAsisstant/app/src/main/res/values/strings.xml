@@ -1,0 +1,138 @@
+<resources>
+    <string name="application_name" translatable="false">Travel Assistant</string>
+    <string name="facebook_add_id" translatable="false">416049805707544</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb416049805707544</string>
+    <string name="google_server_client_id" translatable="false">154710257079-4bvqt8ike8qco41ltrca5khc7i2osloi.apps.googleusercontent.com</string>
+    <string name="shared_preferences_login" translatable="false">shared_preferences_login</string>
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoidHVtZW8xMjMiLCJhIjoiY2szeWlvYTg0MDh2ajNscGE2a3lodnJzbiJ9.PaBMOrBA8LGoy8V2FPQ9cg</string>
+    <string name="user_access_token" translatable="false">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI5NywicGhvbmUiOiIiLCJlbWFpbCI6IiIsImV4cCI6MTU3ODU5MDIyMzc5MywiYWNjb3VudCI6InVzZXIiLCJpYXQiOjE1NzU5OTgyMjN9.4c3DPouFcR3rSrxXrcWJu-nqhw5F4ihZ7m2SaJsASRA</string>
+    <string name="test_tour_id" translatable="false">4022</string>
+    <string name="language_vietnam" translatable="false">Việt Nam</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="service_not_available" translatable="false">Service is not available</string>
+    <string name="invalid_lat_long_used" translatable="false">Invalid use of lat or long</string>
+    <string name="no_address_found" translatable="false">No address is found</string>
+    <string name="address_found" translatable="false">Address is found</string>
+    <string name="title_activity_review_stop_point" translatable="false">Travel Assistant</string>
+
+    <string name="record">Record</string>
+    <string name="stop">stop</string>
+    <string name="play">Play</string>
+    <string name="operation">operation</string>
+    <string name="reviews">reviews</string>
+    <string name="tour_information">Tour Information</string>
+    <string name="language">English</string>
+    <string name="email_phone">Email/Phone</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">Or</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="successful">Successful</string>
+    <string name="error">Error</string>
+    <string name="trips">trips</string>
+    <string name="cost_range">Cost range</string>
+    <string name="message_confirm_cancel">Do you want to cancel this %1s?</string>
+    <string name="message_confirm_delete">Are you sure you want to delete?</string>
+    <string name="message_response_send_successfully">Your response has been sent successfully</string>
+    <string name="message_error_happened">An error happened</string>
+    <string name="message_request_email_invalid">Requested email is invalid or not existed</string>
+    <string name="message_fill_information">You must fill all required information</string>
+    <string name="message_confirm_password_not_matched">Confirm password is incorrect</string>
+    <string name="message_register_failed">Failed to register new account</string>
+    <string name="message_update_account_failed">Failed to update account</string>
+    <string name="message_update_account_success">Update account successfully</string>
+    <string name="message_fail_invite_user">Failed to invite user</string>
+    <string name="invalid_account">Invalid account</string>
+    <string name="message_invalid_account">Username or Password is incorrect</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_password">Password must be > 5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="message_forgot_password">Select which contact details should we use to reset your password</string>
+    <string name="message_unavailable_method">This method is not available</string>
+    <string name="message_update_successfully">Update successfully</string>
+    <string name="via_email">Via email</string>
+    <string name="via_sms">Via sms</string>
+    <string name="submit">Submit</string>
+    <string name="message_enter_sms">Please enter your phone number</string>
+    <string name="message_enter_email">Please enter your email</string>
+    <string name="message_update_error">Update failed</string>
+    <string name="message_invite_success">Invite member successfully</string>
+    <string name="search">Search</string>
+    <string name="create">Create</string>
+    <string name="tour_name">Tour Name</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="min_cost">Min cost</string>
+    <string name="max_cost">Max cost</string>
+    <string name="choose_tour_image">Choose tour image</string>
+    <string name="private_trip">Private trip</string>
+    <string name="public_trip">Public trip</string>
+    <string name="choose_date">Choose date</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="stop_point_information">Stop point information</string>
+    <string name="stop_name">Stop name</string>
+    <string name="service_type">Service type</string>
+    <string name="address">Address</string>
+    <string name="time">Time</string>
+    <string name="arrive_at">Arrive at</string>
+    <string name="leave_at">Leave at</string>
+    <string name="add">Add</string>
+    <string name="log_out">Log out</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="switch_language">Switch language</string>
+    <string name="gender">Gender</string>
+    <string name="update">Update</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="your_otp_code">Your OTP code</string>
+    <string name="enter_otp_code_in_your_email">Enter OTP code in your email</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="new_password">New password</string>
+    <string name="rate_this_tour">Rate this tour</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="other">Other</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="hotel">Hotel</string>
+    <string name="rest_station">Rest Station</string>
+    <string name="post_your_rating_with_public">Post your rating with public</string>
+    <string name="post">Post</string>
+    <string name="share_details_about_your_own_experience_at_this_place">Share details about your own experience at this place</string>
+
+    <!--Location tracking activity permission toasts-->
+    <string name="message_request_user_grant_permission">This app needs location permissions in order to show its functionality.</string>
+    <string name="message_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="message_language_change">Do you want to change language to</string>
+
+    <string name="rate_and_review">Rate and review</string>
+    <string name="share_your_experience_to_help_others">Share your experience to help others</string>
+    <string name="send">Send</string>
+    <string name="enter_your_s_comments_here">Enter your\'s comments here</string>
+    <string name="direct">Direct</string>
+    <string name="move">Move</string>
+    <string name="Warning">Warning</string>
+    <string name="enter_id_of_user_which_you_want_invite_into_your_tour">Enter the ID of user which you want invite to this tour</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="choose_location_warning">Choose one point to warning for other members</string>
+    <string name="enter_text_notify_which_you_wanna_send_for_other_members">Enter text notify which you wanna send for other members</string>
+    <string name="deny">Deny</string>
+    <string name="accept">Accept</string>
+    <string name="invite"> has invited you to join </string>
+    <string name="rating">Rating</string>
+
+</resources>

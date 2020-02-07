@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ygaps.travelapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.ActivityStoppoint"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activities.ReviewStopPointActivity"
+            android:label="@string/title_activity_review_stop_point" />
+        <activity android:name=".Activities.ActivityNotify" />
+        <activity android:name=".Activities.RatingTourStopPoint" />
+
+        <service android:name=".Activities.MyFireBaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Activities.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.VerifyOTP" />
+        <activity android:name=".Activities.UserDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.UserDetailActivity" />
+        </activity>
+        <activity android:name=".Activities.TourActivity" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:theme="@style/SplashscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.AddTour">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ygaps.travelapp.Activities.AddTour" />
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_add_id" />
+
+        <activity android:name=".Activities.TourDetailActivity" />
+        <activity android:name=".Activities.ListTour" />
+        <activity android:name=".Activities.UserActivity" />
+        <activity android:name=".Activities.ForgotPass">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.ForgotPass" />
+        </activity>
+        <activity android:name=".Activities.SignUp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.SignUp" />
+        </activity>
+        <activity android:name=".Activities.EvaluateTrip" />
+    </application>
+
+</manifest>

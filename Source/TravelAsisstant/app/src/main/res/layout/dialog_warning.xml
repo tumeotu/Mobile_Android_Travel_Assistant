@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/draw_fill"
+        android:text="@string/Warning"
+        android:textAlignment="center"
+        android:textColor="#158D18"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Choose type waring"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <RadioButton
+            android:id="@+id/rdi_Police"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Police position">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdi_Problem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Problems on road">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdi_Speed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Speed limited sign">
+        </RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Enter speed if ahead have speed limited waring"></TextView>
+
+    <EditText
+        android:id="@+id/txt_ContentSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:singleLine="true"
+        >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCanelWaring"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/boderbutton"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textSize="20sp">
+        </Button>
+
+        <Button
+            android:id="@+id/btnAddWaring"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/boderbutton"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textSize="20sp">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

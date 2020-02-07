@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/activityTourDetail"
+tools:context=".Activities.TourDetailActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </fragment>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/colorapp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:onClick="OnClickSettingTour"
+        tools:ignore="OnClick">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <include layout="@layout/fab_layout">
+    </include>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

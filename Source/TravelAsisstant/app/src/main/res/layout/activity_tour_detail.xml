@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activityTourDetail"
+    tools:context=".Activities.TourDetailActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="10.762622"
+        mapbox:mapbox_cameraTargetLng="106.660172"
+        mapbox:mapbox_cameraZoom="13"
+        mapbox:mapbox_cameraBearing="34.33"
+        mapbox:mapbox_cameraTilt="50.25"
+        mapbox:mapbox_cameraZoomMax="18"
+        mapbox:mapbox_cameraZoomMin="1"
+        mapbox:mapbox_uiRotateGestures="false"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/SettingTour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="@color/colorapp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:onClick="OnClickSettingTour"
+        tools:ignore="OnClick">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnYouLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="691dp"
+        android:backgroundTint="@color/colorapp"
+        android:layout_marginRight="6dp"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:onClick="OnClickYourLocation"
+        tools:ignore="OnClick">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <include layout="@layout/fab_setting_tour">
+    </include>
+    <include
+        layout="@layout/botton_sheet" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
